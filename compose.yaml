@@ -1,0 +1,26 @@
+services:
+  openfhe-cu128:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        BASE_IMAGE: pytorch/pytorch:2.7.0-cuda12.8-cudnn9-devel
+        CMAKE_CUDA_ARCHS: "100;90"
+        REPO_URL: https://github.com/leodec/openfhe-gpu-public.git
+        REPO_REF: main
+    image: openfhe-gpu-pytorch:cu128
+    shm_size: "32g"
+    ipc: host
+    gpus: all
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility
+      - CUDA_DEVICE_MAX_CONNECTIONS=32
+      - PYTORCH_CUDA_ALLOC_CONF=max_split_size_mb:128
+    volumes:
+      - ./openfhe-gpu:/opt/openfhe-gpu # 호스트 ./openfhe-gpu ↔ 컨테이너 /opt/openfhe-gpu
+    working_dir: /workspace
+    command: bash
+    tty: true
+    stdin_open: true
+    restart: unless-stopped
