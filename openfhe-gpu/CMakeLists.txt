@@ -751,9 +751,12 @@ LIST(REMOVE_DUPLICATES clean_files)
 LIST(REMOVE_ITEM       clean_files "")
 SET_DIRECTORY_PROPERTIES(PROPERTIES ADDITIONAL_MAKE_CLEAN_FILES "${clean_files}")
 
-export(EXPORT OpenFHETargets FILE "${PROJECT_BINARY_DIR}/OpenFHETargets.cmake")
+option(OPENFHE_NO_EXPORT "Disable CMake install/export of OpenFHE targets" ON)
 
-export(PACKAGE OpenFHE)
+if(NOT OPENFHE_NO_EXPORT)
+  export(EXPORT OpenFHETargets FILE "${PROJECT_BINARY_DIR}/OpenFHETargets.cmake")
+  export(PACKAGE OpenFHE)
+endif()
 
 # Create the OpenFHEConfig.cmake and OpenFHEConfigVersion files
 file(RELATIVE_PATH REL_INCLUDE_DIR "${INSTALL_CMAKE_DIR}"
@@ -770,12 +773,11 @@ configure_file(OpenFHEConfig.cmake.in
 configure_file(OpenFHEConfigVersion.cmake.in
   "${PROJECT_BINARY_DIR}/OpenFHEConfigVersion.cmake" @ONLY)
 
-# Install the OpenFHEConfig.cmake and OpenFHEConfigVersion.cmake
-install(FILES
-  "${PROJECT_BINARY_DIR}${CMAKE_FILES_DIRECTORY}/OpenFHEConfig.cmake"
-  "${PROJECT_BINARY_DIR}/OpenFHEConfigVersion.cmake"
-  DESTINATION "${INSTALL_CMAKE_DIR}" COMPONENT dev)
-
-# Install the export set for use with the install-tree
-install(EXPORT OpenFHETargets DESTINATION
-  "${INSTALL_CMAKE_DIR}" COMPONENT dev)
+if(NOT OPENFHE_NO_EXPORT)
+  install(FILES
+    "${PROJECT_BINARY_DIR}${CMAKE_FILES_DIRECTORY}/OpenFHEConfig.cmake"
+    "${PROJECT_BINARY_DIR}/OpenFHEConfigVersion.cmake"
+    DESTINATION "${INSTALL_CMAKE_DIR}" COMPONENT dev)
+  install(EXPORT OpenFHETargets DESTINATION
+    "${INSTALL_CMAKE_DIR}" COMPONENT dev)
+endif()
