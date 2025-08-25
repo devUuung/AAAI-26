@@ -10,6 +10,9 @@ Breast Cancer 데이터셋에 대해
 - 암호 추론 시 각 뉴런의 선형결합은 ctx.run_layer를 사용합니다.
 - 활성함수는 ReLU 대신 poly2_x2_plus_x (x^2 + x) 사용.
 - 최종 출력층은 선형 로짓을 복호 후 시그모이드를 평문에서 적용하여 라벨 결정.
+=== Accuracy Comparison ===
+Plain MLP accuracy      : 0.9561
+Encrypted MLP accuracy  : 0.8421
 """
 
 import sys
