@@ -11,3 +11,5 @@ python -c "import torch; print('PyTorch:', torch.__version__, ' CUDA:', torch.ve
 
 # cpp build
 cmake --build . -j"$(nproc)"
+
+나중에 pybind11 설치하도록 compose 수정

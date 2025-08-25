@@ -708,6 +708,7 @@ target_compile_options(DeviceFunctions PRIVATE
 add_subdirectory(src/core)
 add_subdirectory(src/pke)
 add_subdirectory(src/binfhe)
+add_subdirectory(python)
 
 ### build the google test handlers
 ###if( BUILD_UNITTESTS )
