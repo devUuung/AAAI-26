@@ -12,7 +12,7 @@ Breast Cancer 데이터셋에 대해
 - 최종 출력층은 선형 로짓을 복호 후 시그모이드를 평문에서 적용하여 라벨 결정.
 === Accuracy Comparison ===
 Plain MLP accuracy      : 0.9561
-Encrypted MLP accuracy  : 0.8421
+Encrypted MLP accuracy  : 0.8421 // level=6 noiseScaleDeg=2 scalingFactor=3.32306998951064672e+35
 """
 
 import sys
