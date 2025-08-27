@@ -1,0 +1,3 @@
+/opt/openfhe-gpu/build/_deps/cnmem-subbuild/CMakeFiles/cnmem-populate.dir
+/opt/openfhe-gpu/build/_deps/cnmem-subbuild/CMakeFiles/edit_cache.dir
+/opt/openfhe-gpu/build/_deps/cnmem-subbuild/CMakeFiles/rebuild_cache.dir

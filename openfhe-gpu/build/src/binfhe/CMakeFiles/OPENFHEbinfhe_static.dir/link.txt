@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libOPENFHEbinfhe_static.a "CMakeFiles/binfheobj.dir/lib/binfhe-base-scheme.cpp.o" "CMakeFiles/binfheobj.dir/lib/binfhe-constants-impl.cpp.o" CMakeFiles/binfheobj.dir/lib/binfhecontext.cpp.o "CMakeFiles/binfheobj.dir/lib/lwe-pke.cpp.o" "CMakeFiles/binfheobj.dir/lib/rgsw-acc-cggi.cpp.o" "CMakeFiles/binfheobj.dir/lib/rgsw-acc-dm.cpp.o" "CMakeFiles/binfheobj.dir/lib/rgsw-acc-lmkcdey.cpp.o" "CMakeFiles/binfheobj.dir/lib/rgsw-acc.cpp.o" "CMakeFiles/binfheobj.dir/lib/rgsw-cryptoparameters.cpp.o"
+/usr/bin/ranlib ../../lib/libOPENFHEbinfhe_static.a

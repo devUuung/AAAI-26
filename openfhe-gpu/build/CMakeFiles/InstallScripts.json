@@ -1,0 +1,15 @@
+{
+	"InstallScripts" : 
+	[
+		"/opt/openfhe-gpu/build/cmake_install.cmake",
+		"/opt/openfhe-gpu/build/third-party/cmake_install.cmake",
+		"/opt/openfhe-gpu/build/_deps/rmm-build/cmake_install.cmake",
+		"/opt/openfhe-gpu/build/_deps/rmm-build/thirdparty/cmake_install.cmake",
+		"/opt/openfhe-gpu/build/_deps/spdlog-build/cmake_install.cmake",
+		"/opt/openfhe-gpu/build/src/core/cmake_install.cmake",
+		"/opt/openfhe-gpu/build/src/pke/cmake_install.cmake",
+		"/opt/openfhe-gpu/build/src/binfhe/cmake_install.cmake",
+		"/opt/openfhe-gpu/build/python/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

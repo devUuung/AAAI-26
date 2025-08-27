@@ -1,0 +1,1016 @@
+[
+{
+  "directory": "/opt/openfhe-gpu/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DBUILTIN_INFO_AVAILABLE -DDeviceFunctions_EXPORTS -DPARALLEL --options-file CMakeFiles/DeviceFunctions.dir/includes_CUDA.rsp -O3 -DNDEBUG -std=c++17 \"--generate-code=arch=compute_70,code=[compute_70,sm_70]\" \"--generate-code=arch=compute_72,code=[compute_72,sm_72]\" \"--generate-code=arch=compute_75,code=[compute_75,sm_75]\" \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" \"--generate-code=arch=compute_86,code=[compute_86,sm_86]\" -Xcompiler=-fPIC -Xcompiler=-fopenmp,-Wall -x cu -c /opt/openfhe-gpu/src/core/lib/gpu/Context.cu -o CMakeFiles/DeviceFunctions.dir/src/core/lib/gpu/Context.cu.o",
+  "file": "/opt/openfhe-gpu/src/core/lib/gpu/Context.cu",
+  "output": "CMakeFiles/DeviceFunctions.dir/src/core/lib/gpu/Context.cu.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DBUILTIN_INFO_AVAILABLE -DDeviceFunctions_EXPORTS -DPARALLEL --options-file CMakeFiles/DeviceFunctions.dir/includes_CUDA.rsp -O3 -DNDEBUG -std=c++17 \"--generate-code=arch=compute_70,code=[compute_70,sm_70]\" \"--generate-code=arch=compute_72,code=[compute_72,sm_72]\" \"--generate-code=arch=compute_75,code=[compute_75,sm_75]\" \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" \"--generate-code=arch=compute_86,code=[compute_86,sm_86]\" -Xcompiler=-fPIC -Xcompiler=-fopenmp,-Wall -x cu -c /opt/openfhe-gpu/src/core/lib/gpu/CudaHelper.cu -o CMakeFiles/DeviceFunctions.dir/src/core/lib/gpu/CudaHelper.cu.o",
+  "file": "/opt/openfhe-gpu/src/core/lib/gpu/CudaHelper.cu",
+  "output": "CMakeFiles/DeviceFunctions.dir/src/core/lib/gpu/CudaHelper.cu.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DBUILTIN_INFO_AVAILABLE -DDeviceFunctions_EXPORTS -DPARALLEL --options-file CMakeFiles/DeviceFunctions.dir/includes_CUDA.rsp -O3 -DNDEBUG -std=c++17 \"--generate-code=arch=compute_70,code=[compute_70,sm_70]\" \"--generate-code=arch=compute_72,code=[compute_72,sm_72]\" \"--generate-code=arch=compute_75,code=[compute_75,sm_75]\" \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" \"--generate-code=arch=compute_86,code=[compute_86,sm_86]\" -Xcompiler=-fPIC -Xcompiler=-fopenmp,-Wall -x cu -c /opt/openfhe-gpu/src/core/lib/gpu/DeviceVector.cu -o CMakeFiles/DeviceFunctions.dir/src/core/lib/gpu/DeviceVector.cu.o",
+  "file": "/opt/openfhe-gpu/src/core/lib/gpu/DeviceVector.cu",
+  "output": "CMakeFiles/DeviceFunctions.dir/src/core/lib/gpu/DeviceVector.cu.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DBUILTIN_INFO_AVAILABLE -DDeviceFunctions_EXPORTS -DPARALLEL --options-file CMakeFiles/DeviceFunctions.dir/includes_CUDA.rsp -O3 -DNDEBUG -std=c++17 \"--generate-code=arch=compute_70,code=[compute_70,sm_70]\" \"--generate-code=arch=compute_72,code=[compute_72,sm_72]\" \"--generate-code=arch=compute_75,code=[compute_75,sm_75]\" \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" \"--generate-code=arch=compute_86,code=[compute_86,sm_86]\" -Xcompiler=-fPIC -Xcompiler=-fopenmp,-Wall -x cu -c /opt/openfhe-gpu/src/core/lib/gpu/MultPtxtBatch.cu -o CMakeFiles/DeviceFunctions.dir/src/core/lib/gpu/MultPtxtBatch.cu.o",
+  "file": "/opt/openfhe-gpu/src/core/lib/gpu/MultPtxtBatch.cu",
+  "output": "CMakeFiles/DeviceFunctions.dir/src/core/lib/gpu/MultPtxtBatch.cu.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DBUILTIN_INFO_AVAILABLE -DDeviceFunctions_EXPORTS -DPARALLEL --options-file CMakeFiles/DeviceFunctions.dir/includes_CUDA.rsp -O3 -DNDEBUG -std=c++17 \"--generate-code=arch=compute_70,code=[compute_70,sm_70]\" \"--generate-code=arch=compute_72,code=[compute_72,sm_72]\" \"--generate-code=arch=compute_75,code=[compute_75,sm_75]\" \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" \"--generate-code=arch=compute_86,code=[compute_86,sm_86]\" -Xcompiler=-fPIC -Xcompiler=-fopenmp,-Wall -x cu -c /opt/openfhe-gpu/src/core/lib/gpu/NttImple.cu -o CMakeFiles/DeviceFunctions.dir/src/core/lib/gpu/NttImple.cu.o",
+  "file": "/opt/openfhe-gpu/src/core/lib/gpu/NttImple.cu",
+  "output": "CMakeFiles/DeviceFunctions.dir/src/core/lib/gpu/NttImple.cu.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DBUILTIN_INFO_AVAILABLE -DDeviceFunctions_EXPORTS -DPARALLEL --options-file CMakeFiles/DeviceFunctions.dir/includes_CUDA.rsp -O3 -DNDEBUG -std=c++17 \"--generate-code=arch=compute_70,code=[compute_70,sm_70]\" \"--generate-code=arch=compute_72,code=[compute_72,sm_72]\" \"--generate-code=arch=compute_75,code=[compute_75,sm_75]\" \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" \"--generate-code=arch=compute_86,code=[compute_86,sm_86]\" -Xcompiler=-fPIC -Xcompiler=-fopenmp,-Wall -x cu -c /opt/openfhe-gpu/src/core/lib/gpu/vector_add_kernel.cu -o CMakeFiles/DeviceFunctions.dir/src/core/lib/gpu/vector_add_kernel.cu.o",
+  "file": "/opt/openfhe-gpu/src/core/lib/gpu/vector_add_kernel.cu",
+  "output": "CMakeFiles/DeviceFunctions.dir/src/core/lib/gpu/vector_add_kernel.cu.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/core",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/coreobj.dir/lib/lattice/constants-lattice-impl.cpp.o -c /opt/openfhe-gpu/src/core/lib/lattice/constants-lattice-impl.cpp",
+  "file": "/opt/openfhe-gpu/src/core/lib/lattice/constants-lattice-impl.cpp",
+  "output": "src/core/CMakeFiles/coreobj.dir/lib/lattice/constants-lattice-impl.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/core",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/coreobj.dir/lib/lattice/lattice.cpp.o -c /opt/openfhe-gpu/src/core/lib/lattice/lattice.cpp",
+  "file": "/opt/openfhe-gpu/src/core/lib/lattice/lattice.cpp",
+  "output": "src/core/CMakeFiles/coreobj.dir/lib/lattice/lattice.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/core",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/coreobj.dir/lib/lattice/stdlatticeparms.cpp.o -c /opt/openfhe-gpu/src/core/lib/lattice/stdlatticeparms.cpp",
+  "file": "/opt/openfhe-gpu/src/core/lib/lattice/stdlatticeparms.cpp",
+  "output": "src/core/CMakeFiles/coreobj.dir/lib/lattice/stdlatticeparms.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/core",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/coreobj.dir/lib/lattice/trapdoor-dcrtpoly.cpp.o -c /opt/openfhe-gpu/src/core/lib/lattice/trapdoor-dcrtpoly.cpp",
+  "file": "/opt/openfhe-gpu/src/core/lib/lattice/trapdoor-dcrtpoly.cpp",
+  "output": "src/core/CMakeFiles/coreobj.dir/lib/lattice/trapdoor-dcrtpoly.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/core",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/coreobj.dir/lib/lattice/trapdoor-poly.cpp.o -c /opt/openfhe-gpu/src/core/lib/lattice/trapdoor-poly.cpp",
+  "file": "/opt/openfhe-gpu/src/core/lib/lattice/trapdoor-poly.cpp",
+  "output": "src/core/CMakeFiles/coreobj.dir/lib/lattice/trapdoor-poly.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/core",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/coreobj.dir/lib/math/chebyshev.cpp.o -c /opt/openfhe-gpu/src/core/lib/math/chebyshev.cpp",
+  "file": "/opt/openfhe-gpu/src/core/lib/math/chebyshev.cpp",
+  "output": "src/core/CMakeFiles/coreobj.dir/lib/math/chebyshev.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/core",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/coreobj.dir/lib/math/dftransform.cpp.o -c /opt/openfhe-gpu/src/core/lib/math/dftransform.cpp",
+  "file": "/opt/openfhe-gpu/src/core/lib/math/dftransform.cpp",
+  "output": "src/core/CMakeFiles/coreobj.dir/lib/math/dftransform.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/core",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/coreobj.dir/lib/math/discretegaussiangeneratorgeneric.cpp.o -c /opt/openfhe-gpu/src/core/lib/math/discretegaussiangeneratorgeneric.cpp",
+  "file": "/opt/openfhe-gpu/src/core/lib/math/discretegaussiangeneratorgeneric.cpp",
+  "output": "src/core/CMakeFiles/coreobj.dir/lib/math/discretegaussiangeneratorgeneric.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/core",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/coreobj.dir/lib/math/distributiongenerator.cpp.o -c /opt/openfhe-gpu/src/core/lib/math/distributiongenerator.cpp",
+  "file": "/opt/openfhe-gpu/src/core/lib/math/distributiongenerator.cpp",
+  "output": "src/core/CMakeFiles/coreobj.dir/lib/math/distributiongenerator.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/core",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/coreobj.dir/lib/math/hal/bigintdyn/be4-math-impl.cpp.o -c /opt/openfhe-gpu/src/core/lib/math/hal/bigintdyn/be4-math-impl.cpp",
+  "file": "/opt/openfhe-gpu/src/core/lib/math/hal/bigintdyn/be4-math-impl.cpp",
+  "output": "src/core/CMakeFiles/coreobj.dir/lib/math/hal/bigintdyn/be4-math-impl.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/core",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/coreobj.dir/lib/math/hal/bigintdyn/mubintvecdyn.cpp.o -c /opt/openfhe-gpu/src/core/lib/math/hal/bigintdyn/mubintvecdyn.cpp",
+  "file": "/opt/openfhe-gpu/src/core/lib/math/hal/bigintdyn/mubintvecdyn.cpp",
+  "output": "src/core/CMakeFiles/coreobj.dir/lib/math/hal/bigintdyn/mubintvecdyn.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/core",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/coreobj.dir/lib/math/hal/bigintdyn/ubintdyn.cpp.o -c /opt/openfhe-gpu/src/core/lib/math/hal/bigintdyn/ubintdyn.cpp",
+  "file": "/opt/openfhe-gpu/src/core/lib/math/hal/bigintdyn/ubintdyn.cpp",
+  "output": "src/core/CMakeFiles/coreobj.dir/lib/math/hal/bigintdyn/ubintdyn.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/core",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/coreobj.dir/lib/math/hal/bigintfxd/be2-math-impl.cpp.o -c /opt/openfhe-gpu/src/core/lib/math/hal/bigintfxd/be2-math-impl.cpp",
+  "file": "/opt/openfhe-gpu/src/core/lib/math/hal/bigintfxd/be2-math-impl.cpp",
+  "output": "src/core/CMakeFiles/coreobj.dir/lib/math/hal/bigintfxd/be2-math-impl.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/core",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/coreobj.dir/lib/math/hal/bigintfxd/mubintvecfxd.cpp.o -c /opt/openfhe-gpu/src/core/lib/math/hal/bigintfxd/mubintvecfxd.cpp",
+  "file": "/opt/openfhe-gpu/src/core/lib/math/hal/bigintfxd/mubintvecfxd.cpp",
+  "output": "src/core/CMakeFiles/coreobj.dir/lib/math/hal/bigintfxd/mubintvecfxd.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/core",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/coreobj.dir/lib/math/hal/bigintfxd/ubintfxd.cpp.o -c /opt/openfhe-gpu/src/core/lib/math/hal/bigintfxd/ubintfxd.cpp",
+  "file": "/opt/openfhe-gpu/src/core/lib/math/hal/bigintfxd/ubintfxd.cpp",
+  "output": "src/core/CMakeFiles/coreobj.dir/lib/math/hal/bigintfxd/ubintfxd.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/core",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/coreobj.dir/lib/math/hal/bigintntl/be6-math-impl.cpp.o -c /opt/openfhe-gpu/src/core/lib/math/hal/bigintntl/be6-math-impl.cpp",
+  "file": "/opt/openfhe-gpu/src/core/lib/math/hal/bigintntl/be6-math-impl.cpp",
+  "output": "src/core/CMakeFiles/coreobj.dir/lib/math/hal/bigintntl/be6-math-impl.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/core",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/coreobj.dir/lib/math/hal/bigintntl/mubintvecntl.cpp.o -c /opt/openfhe-gpu/src/core/lib/math/hal/bigintntl/mubintvecntl.cpp",
+  "file": "/opt/openfhe-gpu/src/core/lib/math/hal/bigintntl/mubintvecntl.cpp",
+  "output": "src/core/CMakeFiles/coreobj.dir/lib/math/hal/bigintntl/mubintvecntl.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/core",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/coreobj.dir/lib/math/hal/bigintntl/ubintntl.cpp.o -c /opt/openfhe-gpu/src/core/lib/math/hal/bigintntl/ubintntl.cpp",
+  "file": "/opt/openfhe-gpu/src/core/lib/math/hal/bigintntl/ubintntl.cpp",
+  "output": "src/core/CMakeFiles/coreobj.dir/lib/math/hal/bigintntl/ubintntl.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/core",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/coreobj.dir/lib/math/hal/intnat/benative-math-impl.cpp.o -c /opt/openfhe-gpu/src/core/lib/math/hal/intnat/benative-math-impl.cpp",
+  "file": "/opt/openfhe-gpu/src/core/lib/math/hal/intnat/benative-math-impl.cpp",
+  "output": "src/core/CMakeFiles/coreobj.dir/lib/math/hal/intnat/benative-math-impl.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/core",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/coreobj.dir/lib/math/hal/intnat/mubintvecnat.cpp.o -c /opt/openfhe-gpu/src/core/lib/math/hal/intnat/mubintvecnat.cpp",
+  "file": "/opt/openfhe-gpu/src/core/lib/math/hal/intnat/mubintvecnat.cpp",
+  "output": "src/core/CMakeFiles/coreobj.dir/lib/math/hal/intnat/mubintvecnat.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/core",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/coreobj.dir/lib/math/matrix.cpp.o -c /opt/openfhe-gpu/src/core/lib/math/matrix.cpp",
+  "file": "/opt/openfhe-gpu/src/core/lib/math/matrix.cpp",
+  "output": "src/core/CMakeFiles/coreobj.dir/lib/math/matrix.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/core",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/coreobj.dir/lib/math/nbtheory2.cpp.o -c /opt/openfhe-gpu/src/core/lib/math/nbtheory2.cpp",
+  "file": "/opt/openfhe-gpu/src/core/lib/math/nbtheory2.cpp",
+  "output": "src/core/CMakeFiles/coreobj.dir/lib/math/nbtheory2.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/core",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/coreobj.dir/lib/utils/blockAllocator/blockAllocator.cpp.o -c /opt/openfhe-gpu/src/core/lib/utils/blockAllocator/blockAllocator.cpp",
+  "file": "/opt/openfhe-gpu/src/core/lib/utils/blockAllocator/blockAllocator.cpp",
+  "output": "src/core/CMakeFiles/coreobj.dir/lib/utils/blockAllocator/blockAllocator.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/core",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/coreobj.dir/lib/utils/blockAllocator/xallocator.cpp.o -c /opt/openfhe-gpu/src/core/lib/utils/blockAllocator/xallocator.cpp",
+  "file": "/opt/openfhe-gpu/src/core/lib/utils/blockAllocator/xallocator.cpp",
+  "output": "src/core/CMakeFiles/coreobj.dir/lib/utils/blockAllocator/xallocator.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/core",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/coreobj.dir/lib/utils/debug.cpp.o -c /opt/openfhe-gpu/src/core/lib/utils/debug.cpp",
+  "file": "/opt/openfhe-gpu/src/core/lib/utils/debug.cpp",
+  "output": "src/core/CMakeFiles/coreobj.dir/lib/utils/debug.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/core",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/coreobj.dir/lib/utils/demangle.cpp.o -c /opt/openfhe-gpu/src/core/lib/utils/demangle.cpp",
+  "file": "/opt/openfhe-gpu/src/core/lib/utils/demangle.cpp",
+  "output": "src/core/CMakeFiles/coreobj.dir/lib/utils/demangle.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/core",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/coreobj.dir/lib/utils/get-call-stack.cpp.o -c /opt/openfhe-gpu/src/core/lib/utils/get-call-stack.cpp",
+  "file": "/opt/openfhe-gpu/src/core/lib/utils/get-call-stack.cpp",
+  "output": "src/core/CMakeFiles/coreobj.dir/lib/utils/get-call-stack.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/core",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/coreobj.dir/lib/utils/hashutil.cpp.o -c /opt/openfhe-gpu/src/core/lib/utils/hashutil.cpp",
+  "file": "/opt/openfhe-gpu/src/core/lib/utils/hashutil.cpp",
+  "output": "src/core/CMakeFiles/coreobj.dir/lib/utils/hashutil.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/core",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/coreobj.dir/lib/utils/inttypes.cpp.o -c /opt/openfhe-gpu/src/core/lib/utils/inttypes.cpp",
+  "file": "/opt/openfhe-gpu/src/core/lib/utils/inttypes.cpp",
+  "output": "src/core/CMakeFiles/coreobj.dir/lib/utils/inttypes.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/core",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/coreobj.dir/lib/utils/openfhebase64.cpp.o -c /opt/openfhe-gpu/src/core/lib/utils/openfhebase64.cpp",
+  "file": "/opt/openfhe-gpu/src/core/lib/utils/openfhebase64.cpp",
+  "output": "src/core/CMakeFiles/coreobj.dir/lib/utils/openfhebase64.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/core",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/coreobj.dir/lib/utils/parallel.cpp.o -c /opt/openfhe-gpu/src/core/lib/utils/parallel.cpp",
+  "file": "/opt/openfhe-gpu/src/core/lib/utils/parallel.cpp",
+  "output": "src/core/CMakeFiles/coreobj.dir/lib/utils/parallel.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/core",
+  "command": "/usr/bin/cc -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -fPIC -o CMakeFiles/coreobj.dir/lib/utils/prng/blake2b-ref.c.o -c /opt/openfhe-gpu/src/core/lib/utils/prng/blake2b-ref.c",
+  "file": "/opt/openfhe-gpu/src/core/lib/utils/prng/blake2b-ref.c",
+  "output": "src/core/CMakeFiles/coreobj.dir/lib/utils/prng/blake2b-ref.c.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/core",
+  "command": "/usr/bin/cc -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -fPIC -o CMakeFiles/coreobj.dir/lib/utils/prng/blake2xb-ref.c.o -c /opt/openfhe-gpu/src/core/lib/utils/prng/blake2xb-ref.c",
+  "file": "/opt/openfhe-gpu/src/core/lib/utils/prng/blake2xb-ref.c",
+  "output": "src/core/CMakeFiles/coreobj.dir/lib/utils/prng/blake2xb-ref.c.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/core",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/coreobj.dir/lib/utils/utilities.cpp.o -c /opt/openfhe-gpu/src/core/lib/utils/utilities.cpp",
+  "file": "/opt/openfhe-gpu/src/core/lib/utils/utilities.cpp",
+  "output": "src/core/CMakeFiles/coreobj.dir/lib/utils/utilities.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/core",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/Benchmark.dir/examples/Benchmark.cpp.o -c /opt/openfhe-gpu/src/core/examples/Benchmark.cpp",
+  "file": "/opt/openfhe-gpu/src/core/examples/Benchmark.cpp",
+  "output": "src/core/CMakeFiles/Benchmark.dir/examples/Benchmark.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/core",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/FusionTest.dir/examples/FusionTest.cpp.o -c /opt/openfhe-gpu/src/core/examples/FusionTest.cpp",
+  "file": "/opt/openfhe-gpu/src/core/examples/FusionTest.cpp",
+  "output": "src/core/CMakeFiles/FusionTest.dir/examples/FusionTest.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/core",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/ntt_test.dir/examples/ntt_test.cpp.o -c /opt/openfhe-gpu/src/core/examples/ntt_test.cpp",
+  "file": "/opt/openfhe-gpu/src/core/examples/ntt_test.cpp",
+  "output": "src/core/CMakeFiles/ntt_test.dir/examples/ntt_test.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/core",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/parallel.dir/examples/parallel.cpp.o -c /opt/openfhe-gpu/src/core/examples/parallel.cpp",
+  "file": "/opt/openfhe-gpu/src/core/examples/parallel.cpp",
+  "output": "src/core/CMakeFiles/parallel.dir/examples/parallel.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/core",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/sampling.dir/examples/sampling.cpp.o -c /opt/openfhe-gpu/src/core/examples/sampling.cpp",
+  "file": "/opt/openfhe-gpu/src/core/examples/sampling.cpp",
+  "output": "src/core/CMakeFiles/sampling.dir/examples/sampling.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/core",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/vector_add_demo.dir/examples/vector_add_demo.cpp.o -c /opt/openfhe-gpu/src/core/examples/vector_add_demo.cpp",
+  "file": "/opt/openfhe-gpu/src/core/examples/vector_add_demo.cpp",
+  "output": "src/core/CMakeFiles/vector_add_demo.dir/examples/vector_add_demo.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/ciphertext-impl.cpp.o -c /opt/openfhe-gpu/src/pke/lib/ciphertext-impl.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/ciphertext-impl.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/ciphertext-impl.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/constants-impl.cpp.o -c /opt/openfhe-gpu/src/pke/lib/constants-impl.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/constants-impl.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/constants-impl.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/cryptocontext.cpp.o -c /opt/openfhe-gpu/src/pke/lib/cryptocontext.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/cryptocontext.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/cryptocontext.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/cryptocontextfactory.cpp.o -c /opt/openfhe-gpu/src/pke/lib/cryptocontextfactory.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/cryptocontextfactory.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/cryptocontextfactory.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/cryptoobject-impl.cpp.o -c /opt/openfhe-gpu/src/pke/lib/cryptoobject-impl.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/cryptoobject-impl.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/cryptoobject-impl.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/encoding/ckkspackedencoding.cpp.o -c /opt/openfhe-gpu/src/pke/lib/encoding/ckkspackedencoding.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/encoding/ckkspackedencoding.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/encoding/ckkspackedencoding.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/encoding/coefpackedencoding.cpp.o -c /opt/openfhe-gpu/src/pke/lib/encoding/coefpackedencoding.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/encoding/coefpackedencoding.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/encoding/coefpackedencoding.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/encoding/encodingparams.cpp.o -c /opt/openfhe-gpu/src/pke/lib/encoding/encodingparams.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/encoding/encodingparams.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/encoding/encodingparams.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/encoding/packedencoding.cpp.o -c /opt/openfhe-gpu/src/pke/lib/encoding/packedencoding.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/encoding/packedencoding.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/encoding/packedencoding.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/encoding/stringencoding.cpp.o -c /opt/openfhe-gpu/src/pke/lib/encoding/stringencoding.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/encoding/stringencoding.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/encoding/stringencoding.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/globals-impl.cpp.o -c /opt/openfhe-gpu/src/pke/lib/globals-impl.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/globals-impl.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/globals-impl.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/key/evalkey.cpp.o -c /opt/openfhe-gpu/src/pke/lib/key/evalkey.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/key/evalkey.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/key/evalkey.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/key/evalkeyrelin.cpp.o -c /opt/openfhe-gpu/src/pke/lib/key/evalkeyrelin.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/key/evalkeyrelin.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/key/evalkeyrelin.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/key/privatekey.cpp.o -c /opt/openfhe-gpu/src/pke/lib/key/privatekey.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/key/privatekey.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/key/privatekey.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/key/publickey.cpp.o -c /opt/openfhe-gpu/src/pke/lib/key/publickey.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/key/publickey.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/key/publickey.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/keyswitch/keyswitch-base.cpp.o -c /opt/openfhe-gpu/src/pke/lib/keyswitch/keyswitch-base.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/keyswitch/keyswitch-base.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/keyswitch/keyswitch-base.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/keyswitch/keyswitch-bv.cpp.o -c /opt/openfhe-gpu/src/pke/lib/keyswitch/keyswitch-bv.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/keyswitch/keyswitch-bv.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/keyswitch/keyswitch-bv.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/keyswitch/keyswitch-hybrid.cpp.o -c /opt/openfhe-gpu/src/pke/lib/keyswitch/keyswitch-hybrid.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/keyswitch/keyswitch-hybrid.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/keyswitch/keyswitch-hybrid.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/scheme/bfvrns/bfvrns-cryptoparameters.cpp.o -c /opt/openfhe-gpu/src/pke/lib/scheme/bfvrns/bfvrns-cryptoparameters.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/scheme/bfvrns/bfvrns-cryptoparameters.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/scheme/bfvrns/bfvrns-cryptoparameters.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/scheme/bfvrns/bfvrns-leveledshe.cpp.o -c /opt/openfhe-gpu/src/pke/lib/scheme/bfvrns/bfvrns-leveledshe.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/scheme/bfvrns/bfvrns-leveledshe.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/scheme/bfvrns/bfvrns-leveledshe.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/scheme/bfvrns/bfvrns-multiparty.cpp.o -c /opt/openfhe-gpu/src/pke/lib/scheme/bfvrns/bfvrns-multiparty.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/scheme/bfvrns/bfvrns-multiparty.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/scheme/bfvrns/bfvrns-multiparty.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/scheme/bfvrns/bfvrns-parametergeneration.cpp.o -c /opt/openfhe-gpu/src/pke/lib/scheme/bfvrns/bfvrns-parametergeneration.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/scheme/bfvrns/bfvrns-parametergeneration.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/scheme/bfvrns/bfvrns-parametergeneration.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/scheme/bfvrns/bfvrns-pke.cpp.o -c /opt/openfhe-gpu/src/pke/lib/scheme/bfvrns/bfvrns-pke.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/scheme/bfvrns/bfvrns-pke.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/scheme/bfvrns/bfvrns-pke.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/scheme/bfvrns/bfvrns-scheme.cpp.o -c /opt/openfhe-gpu/src/pke/lib/scheme/bfvrns/bfvrns-scheme.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/scheme/bfvrns/bfvrns-scheme.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/scheme/bfvrns/bfvrns-scheme.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/scheme/bgvrns/bgvrns-cryptoparameters.cpp.o -c /opt/openfhe-gpu/src/pke/lib/scheme/bgvrns/bgvrns-cryptoparameters.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/scheme/bgvrns/bgvrns-cryptoparameters.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/scheme/bgvrns/bgvrns-cryptoparameters.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/scheme/bgvrns/bgvrns-leveledshe.cpp.o -c /opt/openfhe-gpu/src/pke/lib/scheme/bgvrns/bgvrns-leveledshe.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/scheme/bgvrns/bgvrns-leveledshe.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/scheme/bgvrns/bgvrns-leveledshe.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/scheme/bgvrns/bgvrns-multiparty.cpp.o -c /opt/openfhe-gpu/src/pke/lib/scheme/bgvrns/bgvrns-multiparty.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/scheme/bgvrns/bgvrns-multiparty.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/scheme/bgvrns/bgvrns-multiparty.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/scheme/bgvrns/bgvrns-parametergeneration.cpp.o -c /opt/openfhe-gpu/src/pke/lib/scheme/bgvrns/bgvrns-parametergeneration.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/scheme/bgvrns/bgvrns-parametergeneration.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/scheme/bgvrns/bgvrns-parametergeneration.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/scheme/bgvrns/bgvrns-pke.cpp.o -c /opt/openfhe-gpu/src/pke/lib/scheme/bgvrns/bgvrns-pke.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/scheme/bgvrns/bgvrns-pke.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/scheme/bgvrns/bgvrns-pke.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/scheme/bgvrns/bgvrns-scheme.cpp.o -c /opt/openfhe-gpu/src/pke/lib/scheme/bgvrns/bgvrns-scheme.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/scheme/bgvrns/bgvrns-scheme.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/scheme/bgvrns/bgvrns-scheme.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/scheme/ckksrns/ckksrns-advancedshe-gpu.cpp.o -c /opt/openfhe-gpu/src/pke/lib/scheme/ckksrns/ckksrns-advancedshe-gpu.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/scheme/ckksrns/ckksrns-advancedshe-gpu.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/scheme/ckksrns/ckksrns-advancedshe-gpu.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/scheme/ckksrns/ckksrns-advancedshe.cpp.o -c /opt/openfhe-gpu/src/pke/lib/scheme/ckksrns/ckksrns-advancedshe.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/scheme/ckksrns/ckksrns-advancedshe.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/scheme/ckksrns/ckksrns-advancedshe.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/scheme/ckksrns/ckksrns-cryptoparameters.cpp.o -c /opt/openfhe-gpu/src/pke/lib/scheme/ckksrns/ckksrns-cryptoparameters.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/scheme/ckksrns/ckksrns-cryptoparameters.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/scheme/ckksrns/ckksrns-cryptoparameters.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/scheme/ckksrns/ckksrns-fhe-gpu.cpp.o -c /opt/openfhe-gpu/src/pke/lib/scheme/ckksrns/ckksrns-fhe-gpu.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/scheme/ckksrns/ckksrns-fhe-gpu.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/scheme/ckksrns/ckksrns-fhe-gpu.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/scheme/ckksrns/ckksrns-fhe.cpp.o -c /opt/openfhe-gpu/src/pke/lib/scheme/ckksrns/ckksrns-fhe.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/scheme/ckksrns/ckksrns-fhe.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/scheme/ckksrns/ckksrns-fhe.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/scheme/ckksrns/ckksrns-leveledshe.cpp.o -c /opt/openfhe-gpu/src/pke/lib/scheme/ckksrns/ckksrns-leveledshe.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/scheme/ckksrns/ckksrns-leveledshe.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/scheme/ckksrns/ckksrns-leveledshe.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/scheme/ckksrns/ckksrns-multiparty.cpp.o -c /opt/openfhe-gpu/src/pke/lib/scheme/ckksrns/ckksrns-multiparty.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/scheme/ckksrns/ckksrns-multiparty.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/scheme/ckksrns/ckksrns-multiparty.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/scheme/ckksrns/ckksrns-parametergeneration.cpp.o -c /opt/openfhe-gpu/src/pke/lib/scheme/ckksrns/ckksrns-parametergeneration.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/scheme/ckksrns/ckksrns-parametergeneration.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/scheme/ckksrns/ckksrns-parametergeneration.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/scheme/ckksrns/ckksrns-pke.cpp.o -c /opt/openfhe-gpu/src/pke/lib/scheme/ckksrns/ckksrns-pke.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/scheme/ckksrns/ckksrns-pke.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/scheme/ckksrns/ckksrns-pke.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/scheme/ckksrns/ckksrns-scheme.cpp.o -c /opt/openfhe-gpu/src/pke/lib/scheme/ckksrns/ckksrns-scheme.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/scheme/ckksrns/ckksrns-scheme.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/scheme/ckksrns/ckksrns-scheme.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/scheme/ckksrns/ckksrns-schemeswitching.cpp.o -c /opt/openfhe-gpu/src/pke/lib/scheme/ckksrns/ckksrns-schemeswitching.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/scheme/ckksrns/ckksrns-schemeswitching.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/scheme/ckksrns/ckksrns-schemeswitching.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/scheme/ckksrns/ckksrns-utils.cpp.o -c /opt/openfhe-gpu/src/pke/lib/scheme/ckksrns/ckksrns-utils.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/scheme/ckksrns/ckksrns-utils.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/scheme/ckksrns/ckksrns-utils.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/scheme/ckksrns/schemeswitching-data-serializer.cpp.o -c /opt/openfhe-gpu/src/pke/lib/scheme/ckksrns/schemeswitching-data-serializer.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/scheme/ckksrns/schemeswitching-data-serializer.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/scheme/ckksrns/schemeswitching-data-serializer.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/scheme/gen-cryptocontext-params-impl.cpp.o -c /opt/openfhe-gpu/src/pke/lib/scheme/gen-cryptocontext-params-impl.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/scheme/gen-cryptocontext-params-impl.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/scheme/gen-cryptocontext-params-impl.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/scheme/gen-cryptocontext-params-validation.cpp.o -c /opt/openfhe-gpu/src/pke/lib/scheme/gen-cryptocontext-params-validation.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/scheme/gen-cryptocontext-params-validation.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/scheme/gen-cryptocontext-params-validation.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/scheme/scheme-id-impl.cpp.o -c /opt/openfhe-gpu/src/pke/lib/scheme/scheme-id-impl.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/scheme/scheme-id-impl.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/scheme/scheme-id-impl.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/scheme/scheme-swch-params.cpp.o -c /opt/openfhe-gpu/src/pke/lib/scheme/scheme-swch-params.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/scheme/scheme-swch-params.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/scheme/scheme-swch-params.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/schemebase/base-advancedshe.cpp.o -c /opt/openfhe-gpu/src/pke/lib/schemebase/base-advancedshe.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/schemebase/base-advancedshe.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/schemebase/base-advancedshe.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/schemebase/base-cryptoparameters.cpp.o -c /opt/openfhe-gpu/src/pke/lib/schemebase/base-cryptoparameters.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/schemebase/base-cryptoparameters.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/schemebase/base-cryptoparameters.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/schemebase/base-fhe.cpp.o -c /opt/openfhe-gpu/src/pke/lib/schemebase/base-fhe.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/schemebase/base-fhe.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/schemebase/base-fhe.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/schemebase/base-leveledshe.cpp.o -c /opt/openfhe-gpu/src/pke/lib/schemebase/base-leveledshe.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/schemebase/base-leveledshe.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/schemebase/base-leveledshe.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/schemebase/base-multiparty.cpp.o -c /opt/openfhe-gpu/src/pke/lib/schemebase/base-multiparty.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/schemebase/base-multiparty.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/schemebase/base-multiparty.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/schemebase/base-parametergeneration.cpp.o -c /opt/openfhe-gpu/src/pke/lib/schemebase/base-parametergeneration.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/schemebase/base-parametergeneration.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/schemebase/base-parametergeneration.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/schemebase/base-pke.cpp.o -c /opt/openfhe-gpu/src/pke/lib/schemebase/base-pke.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/schemebase/base-pke.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/schemebase/base-pke.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/schemebase/base-pre.cpp.o -c /opt/openfhe-gpu/src/pke/lib/schemebase/base-pre.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/schemebase/base-pre.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/schemebase/base-pre.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/schemebase/base-scheme.cpp.o -c /opt/openfhe-gpu/src/pke/lib/schemebase/base-scheme.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/schemebase/base-scheme.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/schemebase/base-scheme.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/schemebase/rlwe-cryptoparameters-impl.cpp.o -c /opt/openfhe-gpu/src/pke/lib/schemebase/rlwe-cryptoparameters-impl.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/schemebase/rlwe-cryptoparameters-impl.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/schemebase/rlwe-cryptoparameters-impl.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/schemerns/rns-cryptoparameters.cpp.o -c /opt/openfhe-gpu/src/pke/lib/schemerns/rns-cryptoparameters.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/schemerns/rns-cryptoparameters.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/schemerns/rns-cryptoparameters.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/schemerns/rns-leveledshe.cpp.o -c /opt/openfhe-gpu/src/pke/lib/schemerns/rns-leveledshe.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/schemerns/rns-leveledshe.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/schemerns/rns-leveledshe.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/schemerns/rns-multiparty.cpp.o -c /opt/openfhe-gpu/src/pke/lib/schemerns/rns-multiparty.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/schemerns/rns-multiparty.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/schemerns/rns-multiparty.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/pkeobj.dir/lib/schemerns/rns-pke.cpp.o -c /opt/openfhe-gpu/src/pke/lib/schemerns/rns-pke.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/lib/schemerns/rns-pke.cpp",
+  "output": "src/pke/CMakeFiles/pkeobj.dir/lib/schemerns/rns-pke.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/advanced-ckks-bootstrapping-gpu.dir/examples/advanced-ckks-bootstrapping-gpu.cpp.o -c /opt/openfhe-gpu/src/pke/examples/advanced-ckks-bootstrapping-gpu.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/examples/advanced-ckks-bootstrapping-gpu.cpp",
+  "output": "src/pke/CMakeFiles/advanced-ckks-bootstrapping-gpu.dir/examples/advanced-ckks-bootstrapping-gpu.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/advanced-ckks-bootstrapping.dir/examples/advanced-ckks-bootstrapping.cpp.o -c /opt/openfhe-gpu/src/pke/examples/advanced-ckks-bootstrapping.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/examples/advanced-ckks-bootstrapping.cpp",
+  "output": "src/pke/CMakeFiles/advanced-ckks-bootstrapping.dir/examples/advanced-ckks-bootstrapping.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/advanced-real-numbers-128.dir/examples/advanced-real-numbers-128.cpp.o -c /opt/openfhe-gpu/src/pke/examples/advanced-real-numbers-128.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/examples/advanced-real-numbers-128.cpp",
+  "output": "src/pke/CMakeFiles/advanced-real-numbers-128.dir/examples/advanced-real-numbers-128.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/advanced-real-numbers.dir/examples/advanced-real-numbers.cpp.o -c /opt/openfhe-gpu/src/pke/examples/advanced-real-numbers.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/examples/advanced-real-numbers.cpp",
+  "output": "src/pke/CMakeFiles/advanced-real-numbers.dir/examples/advanced-real-numbers.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/basic-ckks.dir/examples/basic-ckks.cpp.o -c /opt/openfhe-gpu/src/pke/examples/basic-ckks.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/examples/basic-ckks.cpp",
+  "output": "src/pke/CMakeFiles/basic-ckks.dir/examples/basic-ckks.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/ckks-gpu-bookkeeping.dir/examples/ckks-gpu-bookkeeping.cpp.o -c /opt/openfhe-gpu/src/pke/examples/ckks-gpu-bookkeeping.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/examples/ckks-gpu-bookkeeping.cpp",
+  "output": "src/pke/CMakeFiles/ckks-gpu-bookkeeping.dir/examples/ckks-gpu-bookkeeping.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/ckks-gpu-keyswitch.dir/examples/ckks-gpu-keyswitch.cpp.o -c /opt/openfhe-gpu/src/pke/examples/ckks-gpu-keyswitch.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/examples/ckks-gpu-keyswitch.cpp",
+  "output": "src/pke/CMakeFiles/ckks-gpu-keyswitch.dir/examples/ckks-gpu-keyswitch.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/ckks-noise-flooding.dir/examples/ckks-noise-flooding.cpp.o -c /opt/openfhe-gpu/src/pke/examples/ckks-noise-flooding.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/examples/ckks-noise-flooding.cpp",
+  "output": "src/pke/CMakeFiles/ckks-noise-flooding.dir/examples/ckks-noise-flooding.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/depth-bfvrns-behz.dir/examples/depth-bfvrns-behz.cpp.o -c /opt/openfhe-gpu/src/pke/examples/depth-bfvrns-behz.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/examples/depth-bfvrns-behz.cpp",
+  "output": "src/pke/CMakeFiles/depth-bfvrns-behz.dir/examples/depth-bfvrns-behz.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/depth-bfvrns.dir/examples/depth-bfvrns.cpp.o -c /opt/openfhe-gpu/src/pke/examples/depth-bfvrns.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/examples/depth-bfvrns.cpp",
+  "output": "src/pke/CMakeFiles/depth-bfvrns.dir/examples/depth-bfvrns.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/depth-bgvrns.dir/examples/depth-bgvrns.cpp.o -c /opt/openfhe-gpu/src/pke/examples/depth-bgvrns.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/examples/depth-bgvrns.cpp",
+  "output": "src/pke/CMakeFiles/depth-bgvrns.dir/examples/depth-bgvrns.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/function-evaluation.dir/examples/function-evaluation.cpp.o -c /opt/openfhe-gpu/src/pke/examples/function-evaluation.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/examples/function-evaluation.cpp",
+  "output": "src/pke/CMakeFiles/function-evaluation.dir/examples/function-evaluation.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/inner-product.dir/examples/inner-product.cpp.o -c /opt/openfhe-gpu/src/pke/examples/inner-product.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/examples/inner-product.cpp",
+  "output": "src/pke/CMakeFiles/inner-product.dir/examples/inner-product.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/iterative-ckks-bootstrapping.dir/examples/iterative-ckks-bootstrapping.cpp.o -c /opt/openfhe-gpu/src/pke/examples/iterative-ckks-bootstrapping.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/examples/iterative-ckks-bootstrapping.cpp",
+  "output": "src/pke/CMakeFiles/iterative-ckks-bootstrapping.dir/examples/iterative-ckks-bootstrapping.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/linearwsum-evaluation.dir/examples/linearwsum-evaluation.cpp.o -c /opt/openfhe-gpu/src/pke/examples/linearwsum-evaluation.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/examples/linearwsum-evaluation.cpp",
+  "output": "src/pke/CMakeFiles/linearwsum-evaluation.dir/examples/linearwsum-evaluation.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/polynomial-evaluation.dir/examples/polynomial-evaluation.cpp.o -c /opt/openfhe-gpu/src/pke/examples/polynomial-evaluation.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/examples/polynomial-evaluation.cpp",
+  "output": "src/pke/CMakeFiles/polynomial-evaluation.dir/examples/polynomial-evaluation.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/pre-buffer.dir/examples/pre-buffer.cpp.o -c /opt/openfhe-gpu/src/pke/examples/pre-buffer.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/examples/pre-buffer.cpp",
+  "output": "src/pke/CMakeFiles/pre-buffer.dir/examples/pre-buffer.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/pre-hra-secure.dir/examples/pre-hra-secure.cpp.o -c /opt/openfhe-gpu/src/pke/examples/pre-hra-secure.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/examples/pre-hra-secure.cpp",
+  "output": "src/pke/CMakeFiles/pre-hra-secure.dir/examples/pre-hra-secure.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/rotation.dir/examples/rotation.cpp.o -c /opt/openfhe-gpu/src/pke/examples/rotation.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/examples/rotation.cpp",
+  "output": "src/pke/CMakeFiles/rotation.dir/examples/rotation.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/scheme-switching-serial.dir/examples/scheme-switching-serial.cpp.o -c /opt/openfhe-gpu/src/pke/examples/scheme-switching-serial.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/examples/scheme-switching-serial.cpp",
+  "output": "src/pke/CMakeFiles/scheme-switching-serial.dir/examples/scheme-switching-serial.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/scheme-switching.dir/examples/scheme-switching.cpp.o -c /opt/openfhe-gpu/src/pke/examples/scheme-switching.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/examples/scheme-switching.cpp",
+  "output": "src/pke/CMakeFiles/scheme-switching.dir/examples/scheme-switching.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/simple-ckks-bootstrapping.dir/examples/simple-ckks-bootstrapping.cpp.o -c /opt/openfhe-gpu/src/pke/examples/simple-ckks-bootstrapping.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/examples/simple-ckks-bootstrapping.cpp",
+  "output": "src/pke/CMakeFiles/simple-ckks-bootstrapping.dir/examples/simple-ckks-bootstrapping.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/simple-integers-bgvrns.dir/examples/simple-integers-bgvrns.cpp.o -c /opt/openfhe-gpu/src/pke/examples/simple-integers-bgvrns.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/examples/simple-integers-bgvrns.cpp",
+  "output": "src/pke/CMakeFiles/simple-integers-bgvrns.dir/examples/simple-integers-bgvrns.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/simple-integers-serial-bgvrns.dir/examples/simple-integers-serial-bgvrns.cpp.o -c /opt/openfhe-gpu/src/pke/examples/simple-integers-serial-bgvrns.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/examples/simple-integers-serial-bgvrns.cpp",
+  "output": "src/pke/CMakeFiles/simple-integers-serial-bgvrns.dir/examples/simple-integers-serial-bgvrns.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/simple-integers-serial.dir/examples/simple-integers-serial.cpp.o -c /opt/openfhe-gpu/src/pke/examples/simple-integers-serial.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/examples/simple-integers-serial.cpp",
+  "output": "src/pke/CMakeFiles/simple-integers-serial.dir/examples/simple-integers-serial.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/simple-integers.dir/examples/simple-integers.cpp.o -c /opt/openfhe-gpu/src/pke/examples/simple-integers.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/examples/simple-integers.cpp",
+  "output": "src/pke/CMakeFiles/simple-integers.dir/examples/simple-integers.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/simple-real-numbers-serial.dir/examples/simple-real-numbers-serial.cpp.o -c /opt/openfhe-gpu/src/pke/examples/simple-real-numbers-serial.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/examples/simple-real-numbers-serial.cpp",
+  "output": "src/pke/CMakeFiles/simple-real-numbers-serial.dir/examples/simple-real-numbers-serial.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/simple-real-numbers.dir/examples/simple-real-numbers.cpp.o -c /opt/openfhe-gpu/src/pke/examples/simple-real-numbers.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/examples/simple-real-numbers.cpp",
+  "output": "src/pke/CMakeFiles/simple-real-numbers.dir/examples/simple-real-numbers.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/tckks-interactive-mp-bootstrapping-Chebyshev.dir/examples/tckks-interactive-mp-bootstrapping-Chebyshev.cpp.o -c /opt/openfhe-gpu/src/pke/examples/tckks-interactive-mp-bootstrapping-Chebyshev.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/examples/tckks-interactive-mp-bootstrapping-Chebyshev.cpp",
+  "output": "src/pke/CMakeFiles/tckks-interactive-mp-bootstrapping-Chebyshev.dir/examples/tckks-interactive-mp-bootstrapping-Chebyshev.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/tckks-interactive-mp-bootstrapping.dir/examples/tckks-interactive-mp-bootstrapping.cpp.o -c /opt/openfhe-gpu/src/pke/examples/tckks-interactive-mp-bootstrapping.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/examples/tckks-interactive-mp-bootstrapping.cpp",
+  "output": "src/pke/CMakeFiles/tckks-interactive-mp-bootstrapping.dir/examples/tckks-interactive-mp-bootstrapping.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/threshold-fhe-5p.dir/examples/threshold-fhe-5p.cpp.o -c /opt/openfhe-gpu/src/pke/examples/threshold-fhe-5p.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/examples/threshold-fhe-5p.cpp",
+  "output": "src/pke/CMakeFiles/threshold-fhe-5p.dir/examples/threshold-fhe-5p.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/pke",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/pke/lib -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/threshold-fhe.dir/examples/threshold-fhe.cpp.o -c /opt/openfhe-gpu/src/pke/examples/threshold-fhe.cpp",
+  "file": "/opt/openfhe-gpu/src/pke/examples/threshold-fhe.cpp",
+  "output": "src/pke/CMakeFiles/threshold-fhe.dir/examples/threshold-fhe.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/binfhe",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/binfhe/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/binfheobj.dir/lib/binfhe-base-scheme.cpp.o -c /opt/openfhe-gpu/src/binfhe/lib/binfhe-base-scheme.cpp",
+  "file": "/opt/openfhe-gpu/src/binfhe/lib/binfhe-base-scheme.cpp",
+  "output": "src/binfhe/CMakeFiles/binfheobj.dir/lib/binfhe-base-scheme.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/binfhe",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/binfhe/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/binfheobj.dir/lib/binfhe-constants-impl.cpp.o -c /opt/openfhe-gpu/src/binfhe/lib/binfhe-constants-impl.cpp",
+  "file": "/opt/openfhe-gpu/src/binfhe/lib/binfhe-constants-impl.cpp",
+  "output": "src/binfhe/CMakeFiles/binfheobj.dir/lib/binfhe-constants-impl.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/binfhe",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/binfhe/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/binfheobj.dir/lib/binfhecontext.cpp.o -c /opt/openfhe-gpu/src/binfhe/lib/binfhecontext.cpp",
+  "file": "/opt/openfhe-gpu/src/binfhe/lib/binfhecontext.cpp",
+  "output": "src/binfhe/CMakeFiles/binfheobj.dir/lib/binfhecontext.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/binfhe",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/binfhe/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/binfheobj.dir/lib/lwe-pke.cpp.o -c /opt/openfhe-gpu/src/binfhe/lib/lwe-pke.cpp",
+  "file": "/opt/openfhe-gpu/src/binfhe/lib/lwe-pke.cpp",
+  "output": "src/binfhe/CMakeFiles/binfheobj.dir/lib/lwe-pke.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/binfhe",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/binfhe/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/binfheobj.dir/lib/rgsw-acc-cggi.cpp.o -c /opt/openfhe-gpu/src/binfhe/lib/rgsw-acc-cggi.cpp",
+  "file": "/opt/openfhe-gpu/src/binfhe/lib/rgsw-acc-cggi.cpp",
+  "output": "src/binfhe/CMakeFiles/binfheobj.dir/lib/rgsw-acc-cggi.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/binfhe",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/binfhe/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/binfheobj.dir/lib/rgsw-acc-dm.cpp.o -c /opt/openfhe-gpu/src/binfhe/lib/rgsw-acc-dm.cpp",
+  "file": "/opt/openfhe-gpu/src/binfhe/lib/rgsw-acc-dm.cpp",
+  "output": "src/binfhe/CMakeFiles/binfheobj.dir/lib/rgsw-acc-dm.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/binfhe",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/binfhe/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/binfheobj.dir/lib/rgsw-acc-lmkcdey.cpp.o -c /opt/openfhe-gpu/src/binfhe/lib/rgsw-acc-lmkcdey.cpp",
+  "file": "/opt/openfhe-gpu/src/binfhe/lib/rgsw-acc-lmkcdey.cpp",
+  "output": "src/binfhe/CMakeFiles/binfheobj.dir/lib/rgsw-acc-lmkcdey.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/binfhe",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/binfhe/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/binfheobj.dir/lib/rgsw-acc.cpp.o -c /opt/openfhe-gpu/src/binfhe/lib/rgsw-acc.cpp",
+  "file": "/opt/openfhe-gpu/src/binfhe/lib/rgsw-acc.cpp",
+  "output": "src/binfhe/CMakeFiles/binfheobj.dir/lib/rgsw-acc.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/binfhe",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/binfhe/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -o CMakeFiles/binfheobj.dir/lib/rgsw-cryptoparameters.cpp.o -c /opt/openfhe-gpu/src/binfhe/lib/rgsw-cryptoparameters.cpp",
+  "file": "/opt/openfhe-gpu/src/binfhe/lib/rgsw-cryptoparameters.cpp",
+  "output": "src/binfhe/CMakeFiles/binfheobj.dir/lib/rgsw-cryptoparameters.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/binfhe",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/binfhe/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/boolean-ap.dir/examples/boolean-ap.cpp.o -c /opt/openfhe-gpu/src/binfhe/examples/boolean-ap.cpp",
+  "file": "/opt/openfhe-gpu/src/binfhe/examples/boolean-ap.cpp",
+  "output": "src/binfhe/CMakeFiles/boolean-ap.dir/examples/boolean-ap.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/binfhe",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/binfhe/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/boolean-lmkcdey.dir/examples/boolean-lmkcdey.cpp.o -c /opt/openfhe-gpu/src/binfhe/examples/boolean-lmkcdey.cpp",
+  "file": "/opt/openfhe-gpu/src/binfhe/examples/boolean-lmkcdey.cpp",
+  "output": "src/binfhe/CMakeFiles/boolean-lmkcdey.dir/examples/boolean-lmkcdey.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/binfhe",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/binfhe/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/boolean-multi-input.dir/examples/boolean-multi-input.cpp.o -c /opt/openfhe-gpu/src/binfhe/examples/boolean-multi-input.cpp",
+  "file": "/opt/openfhe-gpu/src/binfhe/examples/boolean-multi-input.cpp",
+  "output": "src/binfhe/CMakeFiles/boolean-multi-input.dir/examples/boolean-multi-input.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/binfhe",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/binfhe/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/boolean-serial-binary-dynamic-large-precision.dir/examples/boolean-serial-binary-dynamic-large-precision.cpp.o -c /opt/openfhe-gpu/src/binfhe/examples/boolean-serial-binary-dynamic-large-precision.cpp",
+  "file": "/opt/openfhe-gpu/src/binfhe/examples/boolean-serial-binary-dynamic-large-precision.cpp",
+  "output": "src/binfhe/CMakeFiles/boolean-serial-binary-dynamic-large-precision.dir/examples/boolean-serial-binary-dynamic-large-precision.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/binfhe",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/binfhe/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/boolean-serial-binary.dir/examples/boolean-serial-binary.cpp.o -c /opt/openfhe-gpu/src/binfhe/examples/boolean-serial-binary.cpp",
+  "file": "/opt/openfhe-gpu/src/binfhe/examples/boolean-serial-binary.cpp",
+  "output": "src/binfhe/CMakeFiles/boolean-serial-binary.dir/examples/boolean-serial-binary.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/binfhe",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/binfhe/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/boolean-serial-json-dynamic-large-precision.dir/examples/boolean-serial-json-dynamic-large-precision.cpp.o -c /opt/openfhe-gpu/src/binfhe/examples/boolean-serial-json-dynamic-large-precision.cpp",
+  "file": "/opt/openfhe-gpu/src/binfhe/examples/boolean-serial-json-dynamic-large-precision.cpp",
+  "output": "src/binfhe/CMakeFiles/boolean-serial-json-dynamic-large-precision.dir/examples/boolean-serial-json-dynamic-large-precision.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/binfhe",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/binfhe/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/boolean-serial-json.dir/examples/boolean-serial-json.cpp.o -c /opt/openfhe-gpu/src/binfhe/examples/boolean-serial-json.cpp",
+  "file": "/opt/openfhe-gpu/src/binfhe/examples/boolean-serial-json.cpp",
+  "output": "src/binfhe/CMakeFiles/boolean-serial-json.dir/examples/boolean-serial-json.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/binfhe",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/binfhe/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/boolean-truth-tables.dir/examples/boolean-truth-tables.cpp.o -c /opt/openfhe-gpu/src/binfhe/examples/boolean-truth-tables.cpp",
+  "file": "/opt/openfhe-gpu/src/binfhe/examples/boolean-truth-tables.cpp",
+  "output": "src/binfhe/CMakeFiles/boolean-truth-tables.dir/examples/boolean-truth-tables.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/binfhe",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/binfhe/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/boolean.dir/examples/boolean.cpp.o -c /opt/openfhe-gpu/src/binfhe/examples/boolean.cpp",
+  "file": "/opt/openfhe-gpu/src/binfhe/examples/boolean.cpp",
+  "output": "src/binfhe/CMakeFiles/boolean.dir/examples/boolean.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/binfhe",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/binfhe/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/eval-decomp.dir/examples/eval-decomp.cpp.o -c /opt/openfhe-gpu/src/binfhe/examples/eval-decomp.cpp",
+  "file": "/opt/openfhe-gpu/src/binfhe/examples/eval-decomp.cpp",
+  "output": "src/binfhe/CMakeFiles/eval-decomp.dir/examples/eval-decomp.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/binfhe",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/binfhe/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/eval-flooring.dir/examples/eval-flooring.cpp.o -c /opt/openfhe-gpu/src/binfhe/examples/eval-flooring.cpp",
+  "file": "/opt/openfhe-gpu/src/binfhe/examples/eval-flooring.cpp",
+  "output": "src/binfhe/CMakeFiles/eval-flooring.dir/examples/eval-flooring.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/binfhe",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/binfhe/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/eval-function.dir/examples/eval-function.cpp.o -c /opt/openfhe-gpu/src/binfhe/examples/eval-function.cpp",
+  "file": "/opt/openfhe-gpu/src/binfhe/examples/eval-function.cpp",
+  "output": "src/binfhe/CMakeFiles/eval-function.dir/examples/eval-function.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/binfhe",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/binfhe/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/eval-sign.dir/examples/eval-sign.cpp.o -c /opt/openfhe-gpu/src/binfhe/examples/eval-sign.cpp",
+  "file": "/opt/openfhe-gpu/src/binfhe/examples/eval-sign.cpp",
+  "output": "src/binfhe/CMakeFiles/eval-sign.dir/examples/eval-sign.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/binfhe",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/binfhe/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/boolean-ap-pke.dir/examples/pke/boolean-ap-pke.cpp.o -c /opt/openfhe-gpu/src/binfhe/examples/pke/boolean-ap-pke.cpp",
+  "file": "/opt/openfhe-gpu/src/binfhe/examples/pke/boolean-ap-pke.cpp",
+  "output": "src/binfhe/CMakeFiles/boolean-ap-pke.dir/examples/pke/boolean-ap-pke.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/binfhe",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/binfhe/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/boolean-pke.dir/examples/pke/boolean-pke.cpp.o -c /opt/openfhe-gpu/src/binfhe/examples/pke/boolean-pke.cpp",
+  "file": "/opt/openfhe-gpu/src/binfhe/examples/pke/boolean-pke.cpp",
+  "output": "src/binfhe/CMakeFiles/boolean-pke.dir/examples/pke/boolean-pke.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/binfhe",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/binfhe/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/boolean-serial-binary-pke.dir/examples/pke/boolean-serial-binary-pke.cpp.o -c /opt/openfhe-gpu/src/binfhe/examples/pke/boolean-serial-binary-pke.cpp",
+  "file": "/opt/openfhe-gpu/src/binfhe/examples/pke/boolean-serial-binary-pke.cpp",
+  "output": "src/binfhe/CMakeFiles/boolean-serial-binary-pke.dir/examples/pke/boolean-serial-binary-pke.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/binfhe",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/binfhe/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/boolean-serial-json-pke.dir/examples/pke/boolean-serial-json-pke.cpp.o -c /opt/openfhe-gpu/src/binfhe/examples/pke/boolean-serial-json-pke.cpp",
+  "file": "/opt/openfhe-gpu/src/binfhe/examples/pke/boolean-serial-json-pke.cpp",
+  "output": "src/binfhe/CMakeFiles/boolean-serial-json-pke.dir/examples/pke/boolean-serial-json-pke.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/binfhe",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/binfhe/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/boolean-truth-tables-pke.dir/examples/pke/boolean-truth-tables-pke.cpp.o -c /opt/openfhe-gpu/src/binfhe/examples/pke/boolean-truth-tables-pke.cpp",
+  "file": "/opt/openfhe-gpu/src/binfhe/examples/pke/boolean-truth-tables-pke.cpp",
+  "output": "src/binfhe/CMakeFiles/boolean-truth-tables-pke.dir/examples/pke/boolean-truth-tables-pke.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/binfhe",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/binfhe/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/eval-flooring-pke.dir/examples/pke/eval-flooring-pke.cpp.o -c /opt/openfhe-gpu/src/binfhe/examples/pke/eval-flooring-pke.cpp",
+  "file": "/opt/openfhe-gpu/src/binfhe/examples/pke/eval-flooring-pke.cpp",
+  "output": "src/binfhe/CMakeFiles/eval-flooring-pke.dir/examples/pke/eval-flooring-pke.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/src/binfhe",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/binfhe/lib  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/eval-function-pke.dir/examples/pke/eval-function-pke.cpp.o -c /opt/openfhe-gpu/src/binfhe/examples/pke/eval-function-pke.cpp",
+  "file": "/opt/openfhe-gpu/src/binfhe/examples/pke/eval-function-pke.cpp",
+  "output": "src/binfhe/CMakeFiles/eval-function-pke.dir/examples/pke/eval-function-pke.cpp.o"
+},
+{
+  "directory": "/opt/openfhe-gpu/build/python",
+  "command": "/usr/bin/c++ -DBUILTIN_INFO_AVAILABLE -DPARALLEL -Dopenfhe_gpu_EXPORTS -I/opt/openfhe-gpu/third-party/include -I/opt/openfhe-gpu/third-party/cereal/include -I/opt/openfhe-gpu/third-party/google-test/googletest -I/opt/openfhe-gpu/third-party/google-test/googletest/include -I/opt/openfhe-gpu/src/core/include -I/opt/openfhe-gpu/src/binfhe/include -I/opt/openfhe-gpu/build/src/core -I/opt/openfhe-gpu/src/pke/include -I/opt/openfhe-gpu/src/core/lib -I/opt/openfhe-gpu/src/core/lib/gpu -I/usr/local/cuda/include -I/opt/openfhe-gpu/build/_deps/thrust-src -I/opt/openfhe-gpu/build/_deps/rmm-src/include -I/opt/openfhe-gpu/build/_deps/rmm-build/include -I/opt/openfhe-gpu/build/_deps/spdlog-src/include -isystem /opt/conda/include -isystem /opt/conda/include/python3.11 -isystem /usr/local/cuda/targets/x86_64-linux/include  -Wall -Werror -O3  -DOPENFHE_VERSION=1.2.0 -Wno-parentheses -DMATHBACKEND=4 -fopenmp -O3 -DNDEBUG -std=gnu++17 -fPIC -fvisibility=hidden -flto=auto -fno-fat-lto-objects -o CMakeFiles/openfhe_gpu.dir/openfhe_gpu_pybind.cpp.o -c /opt/openfhe-gpu/python/openfhe_gpu_pybind.cpp",
+  "file": "/opt/openfhe-gpu/python/openfhe_gpu_pybind.cpp",
+  "output": "python/CMakeFiles/openfhe_gpu.dir/openfhe_gpu_pybind.cpp.o"
+}
+]

@@ -1,0 +1,1 @@
+/usr/bin/g++ -fPIC -shared -Wl,-soname,libDeviceFunctions.so -o lib/libDeviceFunctions.so @CMakeFiles/DeviceFunctions.dir/objects1.rsp @CMakeFiles/DeviceFunctions.dir/linkLibs.rsp -L"/usr/local/cuda/targets/x86_64-linux/lib/stubs" -L"/usr/local/cuda/targets/x86_64-linux/lib"

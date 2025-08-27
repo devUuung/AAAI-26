@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -Werror -Wno-error=deprecated-declarations -O3 -DNDEBUG -shared -Wl,-soname,librmm.so -o librmm.so "CMakeFiles/rmm.dir/__/cnmem-src/src/cnmem.cpp.o"   -L/usr/local/cuda/targets/x86_64-linux/lib  -Wl,-rpath,"\$ORIGIN:/usr/local/cuda/targets/x86_64-linux/lib:" /usr/local/cuda/targets/x86_64-linux/lib/libnvToolsExt.so -lcudart -lcuda

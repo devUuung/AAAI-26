@@ -2,7 +2,7 @@
 # 
 # required tools curl, tar, lzip
 # 
-# sudo apt-get install -y curl tar lzip
+# apt-get install -y curl tar lzip
 
 ## GMP AND NTL INSTALL
 ### GMP
@@ -13,7 +13,7 @@ tar --lzip -xvf gmp-6.1.2.tar.lz
   ./configure &&  \
   make -j `nproc` && \
   make check &&  \
-  sudo make install || exit -1 \
+  make install || exit -1 \
   popd; \
 )
 
@@ -28,7 +28,7 @@ tar -xvf ntl-10.5.0.tar.gz
   ./configure NTL_THREADS=on NTL_THREAD_BOOST=on NTL_EXCEPTIONS=on SHARED=on NTL_STD_CXX11=on NTL_SAFE_VECTORS=off TUNE=generic && \
   make -j `nproc` && \
   make check && \
-  sudo make install || exit -1; \
+  make install || exit -1; \
   popd; \
 )
 

@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/opt/openfhe-gpu/build/_deps/spdlog-subbuild/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
