@@ -7,7 +7,6 @@ plots/*.svg
 *.o.d
 *.gcov
 bin/
-build*/
 cmake-build-debug
 docs/doxygen
 docs/sphinx

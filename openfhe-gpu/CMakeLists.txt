@@ -708,7 +708,6 @@ target_compile_options(DeviceFunctions PRIVATE
 add_subdirectory(src/core)
 add_subdirectory(src/pke)
 add_subdirectory(src/binfhe)
-add_subdirectory(python)
 
 ### build the google test handlers
 ###if( BUILD_UNITTESTS )
@@ -752,12 +751,9 @@ LIST(REMOVE_DUPLICATES clean_files)
 LIST(REMOVE_ITEM       clean_files "")
 SET_DIRECTORY_PROPERTIES(PROPERTIES ADDITIONAL_MAKE_CLEAN_FILES "${clean_files}")
 
-option(OPENFHE_NO_EXPORT "Disable CMake install/export of OpenFHE targets" ON)
+export(EXPORT OpenFHETargets FILE "${PROJECT_BINARY_DIR}/OpenFHETargets.cmake")
 
-if(NOT OPENFHE_NO_EXPORT)
-  export(EXPORT OpenFHETargets FILE "${PROJECT_BINARY_DIR}/OpenFHETargets.cmake")
-  export(PACKAGE OpenFHE)
-endif()
+export(PACKAGE OpenFHE)
 
 # Create the OpenFHEConfig.cmake and OpenFHEConfigVersion files
 file(RELATIVE_PATH REL_INCLUDE_DIR "${INSTALL_CMAKE_DIR}"
@@ -774,11 +770,12 @@ configure_file(OpenFHEConfig.cmake.in
 configure_file(OpenFHEConfigVersion.cmake.in
   "${PROJECT_BINARY_DIR}/OpenFHEConfigVersion.cmake" @ONLY)
 
-if(NOT OPENFHE_NO_EXPORT)
-  install(FILES
-    "${PROJECT_BINARY_DIR}${CMAKE_FILES_DIRECTORY}/OpenFHEConfig.cmake"
-    "${PROJECT_BINARY_DIR}/OpenFHEConfigVersion.cmake"
-    DESTINATION "${INSTALL_CMAKE_DIR}" COMPONENT dev)
-  install(EXPORT OpenFHETargets DESTINATION
-    "${INSTALL_CMAKE_DIR}" COMPONENT dev)
-endif()
+# Install the OpenFHEConfig.cmake and OpenFHEConfigVersion.cmake
+install(FILES
+  "${PROJECT_BINARY_DIR}${CMAKE_FILES_DIRECTORY}/OpenFHEConfig.cmake"
+  "${PROJECT_BINARY_DIR}/OpenFHEConfigVersion.cmake"
+  DESTINATION "${INSTALL_CMAKE_DIR}" COMPONENT dev)
+
+# Install the export set for use with the install-tree
+install(EXPORT OpenFHETargets DESTINATION
+  "${INSTALL_CMAKE_DIR}" COMPONENT dev)

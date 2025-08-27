@@ -54,13 +54,13 @@ int main(int argc, char* argv[]) {
     // We run the example with 8 slots and ring dimension 4096 to illustrate how to run bootstrapping with a sparse plaintext.
     // Using a sparse plaintext and specifying the smaller number of slots gives a performance improvement (typically up to 3x).
     // ApproxModReduction(8);
-    BootstrapExample(8);
+    // BootstrapExample(8);
     // BootstrapExample(256);
     // BootstrapExample(1<<10);
     // BootstrapExample(1<<11);
     // BootstrapExample(1<<14);
     // BootstrapExample(1<<15);
-    // BootstrapExample(1<<16);
+    BootstrapExample(1<<16);
 }
 
 void ApproxModReduction(uint32_t numSlots) {
@@ -183,8 +183,8 @@ void BootstrapExample(uint32_t numSlots) {
     */
     // parameters.SetSecurityLevel(HEStd_128_classic);
     parameters.SetSecurityLevel(HEStd_NotSet);
-    // parameters.SetRingDim(1 << 17);
-    parameters.SetRingDim(1 << 16);
+    parameters.SetRingDim(1 << 17);
+    // parameters.SetRingDim(1 << 16);
     // parameters.SetRingDim(1 << 12);
 
     /*  A3) Key switching parameters.
