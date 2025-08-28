@@ -44,7 +44,8 @@ CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
 
-//Choose the type of build.
+//Choose the type of build, options are: None Debug Release RelWithDebInfo
+// MinSizeRel ...
 CMAKE_BUILD_TYPE:STRING=Release
 
 //Enable/Disable color output during build.
@@ -995,7 +996,7 @@ CMAKE_TAPI-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
-CORE_INCLUDE_DIRS:INTERNAL=/opt/openfhe-gpu/src/core/include;/opt/openfhe-gpu/src/core/lib;/opt/openfhe-gpu/src/core/include;/opt/openfhe-gpu/src/core/lib
+CORE_INCLUDE_DIRS:INTERNAL=/opt/openfhe-gpu/src/core/include;/opt/openfhe-gpu/src/core/lib;/opt/openfhe-gpu/src/core/include;/opt/openfhe-gpu/src/core/lib;/opt/openfhe-gpu/src/core/include;/opt/openfhe-gpu/src/core/lib;/opt/openfhe-gpu/src/core/include;/opt/openfhe-gpu/src/core/lib
 //ADVANCED property for variable: CUDAToolkit_CUPTI_INCLUDE_DIR
 CUDAToolkit_CUPTI_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CUDAToolkit_rt_LIBRARY
